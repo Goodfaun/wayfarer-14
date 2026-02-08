@@ -1333,3 +1333,16 @@ Entries:
   id: 6645
   time: '2026-02-06T00:02:16.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/443
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: Added more fun to the ContraVend.
+    - type: Add
+      message: The syndicate hardsuits now glow more menacingly.
+    - type: Tweak
+      message: Vulpkanin syndicate hardsuit sprites have been updated.
+    - type: Fix
+      message: Fixed fun!
+  id: 6646
+  time: '2026-02-08T18:21:10.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/444
