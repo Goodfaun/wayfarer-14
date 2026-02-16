@@ -1387,3 +1387,10 @@ Entries:
   id: 6651
   time: '2026-02-11T16:48:34.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/456
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: Various Dusk Fixes
+  id: 6652
+  time: '2026-02-12T12:23:42.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/465
