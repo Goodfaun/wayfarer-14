@@ -1479,3 +1479,12 @@ Entries:
   id: 6663
   time: '2026-02-14T15:04:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/489
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: >-
+        Namespace ships will now be more easily identifiable by their IFF as to
+        what they do
+  id: 6664
+  time: '2026-02-14T15:05:57.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/488
