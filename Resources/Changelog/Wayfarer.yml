@@ -1401,3 +1401,12 @@ Entries:
   id: 6653
   time: '2026-02-12T20:19:44.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/368
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: Solar panels to dusk, curves to dusk, docking bay names
+    - type: Fix
+      message: Many smaller bugs with dusk
+  id: 6654
+  time: '2026-02-12T20:21:29.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/467
