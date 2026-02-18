@@ -1546,3 +1546,14 @@ Entries:
   id: 6670
   time: '2026-02-17T11:25:56.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/496
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: Chapel to Dusk! Please check this areas for potential bugs
+    - type: Tweak
+      message: >-
+        Bar, Kitchen, Cryo, Medical, Library have all been tweaked on Dusk. 
+        Please check these areas for potential bugs
+  id: 6671
+  time: '2026-02-18T23:57:22.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/497
