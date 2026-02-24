@@ -1609,3 +1609,10 @@ Entries:
   id: 6678
   time: '2026-02-23T17:03:58.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/507
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: UCA - Svalinn, the workhorse of the CGP fleet
+  id: 6679
+  time: '2026-02-24T20:49:41.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/519
