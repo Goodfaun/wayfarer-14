@@ -96,6 +96,9 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - WFSidearm #WF addition
+  - WFLongarm #WF addition
+  - WFAmmo #WF addition
 
 - type: roleLoadout
   id: JobNFJanitor
@@ -117,6 +120,9 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - WFSidearm #WF addition
+  - WFLongarm #WF addition
+  - WFAmmo #WF addition
 
 - type: roleLoadout
   id: JobMailCarrier
@@ -138,6 +144,9 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - WFSidearm #WF addition
+  - WFLongarm #WF addition
+  - WFAmmo #WF addition
 
 - type: roleLoadout
   id: JobStationTrafficController
@@ -161,6 +170,9 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - WFSidearm #WF addition
+  - WFLongarm #WF addition
+  - WFAmmo #WF addition
 
 - type: roleLoadout
   id: JobStationRepresentative
@@ -185,6 +197,9 @@
   - StationRepBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - WFSidearm #WF addition
+  - WFLongarm #WF addition
+  - WFAmmo #WF addition
 
 - type: roleLoadout
   id: JobSecurityGuard
@@ -234,6 +249,9 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - WFSidearm #WF addition
+  - WFLongarm #WF addition
+  - WFAmmo #WF addition
 
 - type: roleLoadout
   id: JobPlantManager
@@ -259,6 +277,9 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - WFSidearm #WF addition
+  - WFLongarm #WF addition
+  - WFAmmo #WF addition
 
 - type: roleLoadout
   id: JobPlantTechnician
@@ -283,6 +304,9 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - WFSidearm #WF addition
+  - WFLongarm #WF addition
+  - WFAmmo #WF addition
 
 # region CGP
 - type: roleLoadout
@@ -523,8 +547,9 @@
   - NFPirateFace
   - NFPirateEars
   - ContractorBoxSurvival
-  - OutlawPDA
+  - OutlawPDA # Wayfarer
   - ContractorWallet
+  - OutlawEncryptionKey # Wayfarer
   - PirateBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
@@ -544,8 +569,9 @@
   - NFPirateFace
   - NFPirateEars
   - ContractorBoxSurvival
-  - WantedOutlawPDA
+  - WantedOutlawPDA # Wayfarer
   - ContractorWallet
+  - OutlawEncryptionKey # Wayfarer
   - PirateBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
@@ -565,8 +591,9 @@
   - NFPirateFace
   - NFPirateCaptainEars
   - ContractorBoxSurvival
-  - WantedOutlawPDA
+  - WantedOutlawPDA # Wayfarer
   - PirateCaptainWallet
+  - OutlawEncryptionKey # Wayfarer
   - PirateCaptainBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
