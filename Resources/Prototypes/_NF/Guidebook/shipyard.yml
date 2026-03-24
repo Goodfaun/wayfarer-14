@@ -38,6 +38,7 @@
   - ShipyardHauler
   - ShipyardHarbormaster
   - ShipyardHonker
+  - ShipyardIcarus # Wayfarer ship
   - ShipyardInvestigator
   - ShipyardIzakaya
   - ShipyardKestrel
@@ -234,7 +235,12 @@
   id: ShipyardHonker
   name: guide-entry-shipyard-honker
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Honker.xml"
-
+# Wayfarer ship
+- type: guideEntry
+  id: ShipyardIcarus
+  name: guide-entry-shipyard-icarus
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Icarus.xml"
+# end of Wayfarer ship
 - type: guideEntry
   id: ShipyardInvestigator
   name: guide-entry-shipyard-investigator
@@ -364,3 +370,4 @@
   id: ShipyardVitalis
   name: guide-entry-shipyard-vitalis
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Vitalis.xml"
+
