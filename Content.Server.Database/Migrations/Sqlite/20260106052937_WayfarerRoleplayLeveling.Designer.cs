@@ -3,6 +3,7 @@ using System;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Content.Server.Database.Migrations.Sqlite
 {
     [DbContext(typeof(SqliteServerDbContext))]
-    partial class SqliteServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260106052937_WayfarerRoleplayLeveling")]
+    partial class WayfarerRoleplayLeveling
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.1");
@@ -1509,10 +1512,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("INTEGER")
                         .HasColumnName("round_number");
 
-                    b.Property<byte[]>("MailMetricsData")
-                        .HasColumnType("jsonb")
-                        .HasColumnName("mail_metrics_data");
-
                     b.Property<byte[]>("PlayerManifest")
                         .HasColumnType("jsonb")
                         .HasColumnName("player_manifest");
@@ -1532,10 +1531,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                     b.Property<DateTime>("RoundStartTime")
                         .HasColumnType("TEXT")
                         .HasColumnName("round_start_time");
-
-                    b.Property<byte[]>("SpesosFlowData")
-                        .HasColumnType("jsonb")
-                        .HasColumnName("spesos_flow_data");
 
                     b.HasKey("RoundNumber")
                         .HasName("PK_wayfarer_round_summaries");
@@ -1566,10 +1561,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                     b.Property<DateTime?>("LastWithdrawn")
                         .HasColumnType("TEXT")
                         .HasColumnName("last_withdrawn");
-
-                    b.Property<int?>("LastWithdrawnRoundId")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("last_withdrawn_round_id");
 
                     b.Property<string>("Nickname")
                         .HasColumnType("TEXT")
