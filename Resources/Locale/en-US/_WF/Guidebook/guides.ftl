@@ -13,3 +13,6 @@ guide-entry-wayfarer-rule-c1 = Rule C1: CGP/Command Guidelines
 guide-entry-wayfarer-rule-c2 = Rule C2: Outlaw Guidelines
 guide-entry-wayfarer-rule-d1 = Rule D1: Safe Zones
 guide-entry-wayfarer-rule-d2 = Rule D2: PvP Zones
+
+# Shipyard entries
+guide-entry-shipyard-icarus = Icarus

@@ -27,7 +27,7 @@
 - type: gameMap
   id: Icarus
   mapName: 'BAM Icarus'
-  mapPath: /Maps/_WF/Shuttles/Civilian/icarus.yml
+  mapPath: /Maps/_WF/Shuttles/Scrapyard/icarus.yml
   minPlayers: 0
   stations:
     Icarus:
