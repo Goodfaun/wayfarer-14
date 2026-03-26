@@ -224,12 +224,12 @@
   id: ShipyardHammer
   name: guide-entry-shipyard-hammer
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Hammer.xml"
-
+# wayfarer edit
 - type: guideEntry
   id: ShipyardHauler
   name: guide-entry-shipyard-hauler
-  text: "/ServerInfo/_NF/Guidebook/Shipyard/Hauler.xml"
-
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Hauler.xml"
+# end of wayfarer edit
 - type: guideEntry
   id: ShipyardHonker
   name: guide-entry-shipyard-honker
