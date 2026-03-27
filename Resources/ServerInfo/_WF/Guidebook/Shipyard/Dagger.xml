@@ -1,0 +1,42 @@
+﻿<Document>
+  # DAGGER-CLASS PLACEHOLDER SHUTTLE
+  <!-- replace poster with any entity you want. -->
+  <Box>
+    <GuideEntityEmbed Entity="PosterLegitNoERP" Caption="Ban all Electronic Rave Parties"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ShuttleMapDagger" Caption=""/>
+  </Box>
+
+  [color=#a4885c]Ship Size:[/color] FILLHERE
+
+  [color=#a4885c]Recommended Crew:[/color] FILLHERE
+
+  [color=#a4885c]Power Gen Type:[/color] FILLHERE
+
+  # Shuttle Brief
+
+  "A FILLHERE sized vessel specializing in long-haul cargo operations."
+
+  # Ship Functions
+  <!-- put type of jobs functions here-->
+  # Cargo
+
+  [textlink="Cargo Hauling" link="CargoHauling"/]
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Spacefaring vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+</Document>

@@ -11,10 +11,12 @@
   - ShipyardApothecary
   - ShipyardBarge
   - ShipyardBaroness
+  - ShipyardBeater # wayfarer ship
   - ShipyardBocadillo
   - ShipyardBodkin
   - ShipyardBookworm
   - ShipyardBrigand
+  - ShipyardBuckler # wayfarer ship
   - ShipyardBulker
   - ShipyardCaladrius
   - ShipyardCamper
@@ -27,6 +29,8 @@
   - ShipyardCourier
   - ShipyardCrescent
   - ShipyardCrossroads
+  - ShipyardDagger # wayfarer ship
+  - ShipyardDioddef # wayfarer ship
   - ShipyardDragoon
   - ShipyardDruid
   - ShipyardEagle
@@ -34,33 +38,49 @@
   - ShipyardGasbender
   - ShipyardGaslight
   - ShipyardGeode
+  - ShipyardHamger # wayfarer ship
   - ShipyardHammer
+  - ShipyardHammerhead # wayfarer ship
   - ShipyardHauler
   - ShipyardHarbormaster
+  - ShipyardHeater # wayfarer ship
   - ShipyardHonker
   - ShipyardInvestigator
   - ShipyardIzakaya
   - ShipyardKestrel
   - ShipyardKilderkin
+  - ShipyardKite # wayfarer ship
   - ShipyardLiquidator
   - ShipyardLoader
+  - ShipyardLooter # wayfarer ship
   - ShipyardLyrae
   - ShipyardMcCargo
   - ShipyardMcDelivery
+  - ShipyardMedivac # wayfarer ship
+  - ShipyardMjolnir # wayfarer ship
   - ShipyardNightlight
   - ShipyardNook
   - ShipyardPathfinder
+  - ShipyardParma # wayfarer ship
+  - ShipyardPhalanx # wayfarer ship
   - ShipyardPhoenix
   - ShipyardPlacebo
+  - ShipyardPridwen # wayfarer ship
   - ShipyardProspector
   - ShipyardPulsar
+  - ShipyardQuata # wayfarer ship
+  - ShipyardRatrod # wayfarer ship
+  - ShipyardReclaimer # wayfarer ship
   - ShipyardRetort
+  - ShipyardScryer # wayfarer ship
   - ShipyardSearchlight
   - ShipyardSkipper
   - ShipyardSpirit
   - ShipyardStasis
   - ShipyardStringer
   - ShipyardSurveyor
+  - ShipyardSvalinn # wayfarer ship
+  - ShipyardSwan # wayfarer ship
   - ShipyardTide
   - ShipyardVagabond
   - ShipyardVitalis
@@ -364,3 +384,105 @@
   id: ShipyardVitalis
   name: guide-entry-shipyard-vitalis
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Vitalis.xml"
+
+#wayfarer ships
+- type: guideEntry
+  id: ShipyardBeater
+  name: guide-entry-shipyard-beater
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Beater.xml"
+
+- type: guideEntry
+  id: ShipyardBuckler
+  name: guide-entry-shipyard-buckler
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Buckler.xml"
+
+- type: guideEntry
+  id: ShipyardDagger
+  name: guide-entry-shipyard-dagger
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Dagger.xml"
+
+- type: guideEntry
+  id: ShipyardDioddef
+  name: guide-entry-shipyard-dioddef
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Dioddef.xml"
+
+- type: guideEntry
+  id: ShipyardHamger
+  name: guide-entry-shipyard-hamger
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Hamger.xml"
+
+- type: guideEntry
+  id: ShipyardHammerhead
+  name: guide-entry-shipyard-hammerhead
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Hammerhead.xml"
+
+- type: guideEntry
+  id: ShipyardHeater
+  name: guide-entry-shipyard-heater
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Heater.xml"
+
+- type: guideEntry
+  id: ShipyardKite
+  name: guide-entry-shipyard-kite
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Kite.xml"
+
+- type: guideEntry
+  id: ShipyardLooter
+  name: guide-entry-shipyard-looter
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Looter.xml"
+
+- type: guideEntry
+  id: ShipyardMedivac
+  name: guide-entry-shipyard-medivac
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Medivac.xml"
+
+- type: guideEntry
+  id: ShipyardMjolnir
+  name: guide-entry-shipyard-mjolnir
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Mjolnir.xml"
+
+- type: guideEntry
+  id: ShipyardParma
+  name: guide-entry-shipyard-parma
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Parma.xml"
+
+- type: guideEntry
+  id: ShipyardPhalanx
+  name: guide-entry-shipyard-phalanx
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Phalanx.xml"
+
+- type: guideEntry
+  id: ShipyardPridwen
+  name: guide-entry-shipyard-pridwen
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Pridwen.xml"
+
+- type: guideEntry
+  id: ShipyardQuata
+  name: guide-entry-shipyard-quata
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Quata.xml"
+
+- type: guideEntry
+  id: ShipyardRatrod
+  name: guide-entry-shipyard-ratrod
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Ratrod.xml"
+
+- type: guideEntry
+  id: ShipyardReclaimer
+  name: guide-entry-shipyard-reclaimer
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Reclaimer.xml"
+
+- type: guideEntry
+  id: ShipyardScryer
+  name: guide-entry-shipyard-scryer
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Scryer.xml"
+
+- type: guideEntry
+  id: ShipyardSvalinn
+  name: guide-entry-shipyard-svalinn
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Svalinn.xml"
+
+- type: guideEntry
+  id: ShipyardSwan
+  name: guide-entry-shipyard-swan
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/Swan.xml"
+#end of wayfarer ships

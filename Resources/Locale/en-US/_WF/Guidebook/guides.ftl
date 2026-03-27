@@ -13,3 +13,25 @@ guide-entry-wayfarer-rule-c1 = Rule C1: CGP/Command Guidelines
 guide-entry-wayfarer-rule-c2 = Rule C2: Outlaw Guidelines
 guide-entry-wayfarer-rule-d1 = Rule D1: Safe Zones
 guide-entry-wayfarer-rule-d2 = Rule D2: PvP Zones
+
+# Shipyard
+guide-entry-shipyard-beater = Beater
+guide-entry-shipyard-buckler = Buckler
+guide-entry-shipyard-dagger = Dagger
+guide-entry-shipyard-dioddef = Dioddef
+guide-entry-shipyard-hamger = Hamger
+guide-entry-shipyard-hammerhead = Hammerhead
+guide-entry-shipyard-heater = Heater
+guide-entry-shipyard-kite = Kite
+guide-entry-shipyard-looter = Looter
+guide-entry-shipyard-medivac = Medivac
+guide-entry-shipyard-mjolnir = Mjolnir
+guide-entry-shipyard-parma = Parma
+guide-entry-shipyard-phalanx = Phalanx
+guide-entry-shipyard-pridwen = Pridwen
+guide-entry-shipyard-quata = Quata
+guide-entry-shipyard-ratrod = Ratrod
+guide-entry-shipyard-reclaimer = Reclaimer
+guide-entry-shipyard-scryer = Scryer
+guide-entry-shipyard-svalinn = Svalinn
+guide-entry-shipyard-swan = Swan
