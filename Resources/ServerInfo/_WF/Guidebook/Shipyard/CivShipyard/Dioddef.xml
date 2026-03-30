@@ -1,28 +1,28 @@
 ﻿<Document>
-  # DIODDEF-CLASS PLACEHOLDER SHUTTLE
-  <!-- replace poster with any entity you want. -->
-  <Box>
-    <GuideEntityEmbed Entity="PosterLegitNoERP" Caption="Ban all Electronic Rave Parties"/>
-  </Box>
+  # DIODDEF-CLASS BUILD A SHUTTLE
   <Box>
     <GuideEntityEmbed Entity="ShuttleMapDioddef" Caption=""/>
   </Box>
 
-  [color=#a4885c]Ship Size:[/color] FILLHERE
+  [color=#a4885c]Ship Size:[/color] Micro
 
-  [color=#a4885c]Recommended Crew:[/color] FILLHERE
+  [color=#a4885c]Recommended Crew:[/color] 1
 
-  [color=#a4885c]Power Gen Type:[/color] FILLHERE
+  [color=#a4885c]Power Gen Type:[/color] APU, Solar
 
   # Shuttle Brief
 
-  "A FILLHERE sized vessel specializing in long-haul cargo operations."
+  "A Micro sized vessel specializing in starting a build on a shuttle."
+
+  "Manufactured by UCA"
 
   # Ship Functions
-  <!-- put type of jobs functions here-->
-  # Cargo
 
-  [textlink="Cargo Hauling" link="CargoHauling"/]
+  ship function
+
+  # Shuttle Crafting
+
+  [textlink="Shuttle Crafting" link="ShuttleCraft"/]
 
   # Piloting
 

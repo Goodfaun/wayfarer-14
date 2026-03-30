@@ -1,28 +1,30 @@
 ﻿<Document>
-  # SWAN-CLASS PLACEHOLDER SHUTTLE
+  # HEATER-CLASS CGP SHUTTLE
   <!-- replace poster with any entity you want. -->
   <Box>
-    <GuideEntityEmbed Entity="PosterLegitNoERP" Caption="Ban all Electronic Rave Parties"/>
+    <GuideEntityEmbed Entity="PosterContrabandFunPolice" Caption="Fun Police"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ShuttleMapSwan" Caption=""/>
+    <GuideEntityEmbed Entity="ShuttleMapHeater" Caption=""/>
   </Box>
 
-  [color=#a4885c]Ship Size:[/color] FILLHERE
+  [color=#a4885c]Ship Size:[/color] Medium
 
-  [color=#a4885c]Recommended Crew:[/color] FILLHERE
+  [color=#a4885c]Recommended Crew:[/color] 1-2
 
-  [color=#a4885c]Power Gen Type:[/color] FILLHERE
+  [color=#a4885c]Power Gen Type:[/color] APU, Plasma
 
   # Shuttle Brief
 
-  "A FILLHERE sized vessel specializing in long-haul cargo operations."
+  "A Medium sized vessel specializing in CGP operations."
 
   # Ship Functions
-  <!-- put type of jobs functions here-->
-  # Cargo
 
-  [textlink="Cargo Hauling" link="CargoHauling"/]
+  ship functions
+
+  # CGP
+
+  [textlink="CGP operations" link="Security"/]
 
   # Piloting
 

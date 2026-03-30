@@ -1,25 +1,29 @@
 ﻿<Document>
-  # Kite-CLASS PLACEHOLDER SHUTTLE
-  <!-- replace poster with any entity you want. -->
+  # LOOTER-CLASS OUTLAW CARGO SHUTTLE
   <Box>
-    <GuideEntityEmbed Entity="PosterLegitNoERP" Caption="Ban all Electronic Rave Parties"/>
+    <GuideEntityEmbed Entity="ShuttleGunPirateCannon" Caption="Negotiate"/>
+    <GuideEntityEmbed Entity="CrateGenericSteel" Caption="Rob"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ShuttleMapKite" Caption=""/>
+    <GuideEntityEmbed Entity="ShuttleMapLooter" Caption=""/>
   </Box>
 
-  [color=#a4885c]Ship Size:[/color] FILLHERE
+  [color=#a4885c]Ship Size:[/color] Small
 
-  [color=#a4885c]Recommended Crew:[/color] FILLHERE
+  [color=#a4885c]Recommended Crew:[/color] 1-2
 
-  [color=#a4885c]Power Gen Type:[/color] FILLHERE
+  [color=#a4885c]Power Gen Type:[/color] Biofuel
 
   # Shuttle Brief
 
-  "A FILLHERE sized vessel specializing in long-haul cargo operations."
+  "A Small sized vessel specializing in Outlaw and cargo operations."
+
+  "Manufactured by Unkown"
 
   # Ship Functions
-  <!-- put type of jobs functions here-->
+
+  ship functions
+
   # Cargo
 
   [textlink="Cargo Hauling" link="CargoHauling"/]

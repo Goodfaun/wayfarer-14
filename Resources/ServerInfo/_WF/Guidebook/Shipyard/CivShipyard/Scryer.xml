@@ -1,28 +1,31 @@
 ﻿<Document>
-  # SCRYER-CLASS PLACEHOLDER SHUTTLE
-  <!-- replace poster with any entity you want. -->
+  # SCRYER-CLASS SCIENCE SHUTTLE
   <Box>
-    <GuideEntityEmbed Entity="PosterLegitNoERP" Caption="Ban all Electronic Rave Parties"/>
+    <GuideEntityEmbed Entity="SignScience" Caption="Science Time"/>
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ShuttleMapScryer" Caption=""/>
   </Box>
 
-  [color=#a4885c]Ship Size:[/color] FILLHERE
+  [color=#a4885c]Ship Size:[/color] Medium
 
-  [color=#a4885c]Recommended Crew:[/color] FILLHERE
+  [color=#a4885c]Recommended Crew:[/color] 2-3
 
-  [color=#a4885c]Power Gen Type:[/color] FILLHERE
+  [color=#a4885c]Power Gen Type:[/color] Uranium
 
   # Shuttle Brief
 
-  "A FILLHERE sized vessel specializing in long-haul cargo operations."
+  "A Medium sized vessel specializing in science operations."
+
+  "Manufactured by TI"
 
   # Ship Functions
-  <!-- put type of jobs functions here-->
-  # Cargo
 
-  [textlink="Cargo Hauling" link="CargoHauling"/]
+  ship functions
+
+  # Science
+
+  [textlink="Science" link="Science"/]
 
   # Piloting
 

@@ -1,26 +1,29 @@
 ﻿<Document>
-  # DAGGER-CLASS PLACEHOLDER SHUTTLE
-  <!-- replace poster with any entity you want. -->
+  # DAGGER-CLASS OUTLAW SHUTTLE
   <Box>
-    <GuideEntityEmbed Entity="PosterLegitNoERP" Caption="Ban all Electronic Rave Parties"/>
+    <GuideEntityEmbed Entity="ShuttleGunPirateCannon" Caption="Negotiate"/>
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ShuttleMapDagger" Caption=""/>
   </Box>
 
-  [color=#a4885c]Ship Size:[/color] FILLHERE
+  [color=#a4885c]Ship Size:[/color] Medium
 
-  [color=#a4885c]Recommended Crew:[/color] FILLHERE
+  [color=#a4885c]Recommended Crew:[/color] 1-3
 
-  [color=#a4885c]Power Gen Type:[/color] FILLHERE
+  [color=#a4885c]Power Gen Type:[/color] Uranium
 
   # Shuttle Brief
 
-  "A FILLHERE sized vessel specializing in long-haul cargo operations."
+  "A Medium sized vessel specializing in Outlaw operations."
+
+  "Manufactured by TI"
 
   # Ship Functions
-  <!-- put type of jobs functions here-->
-  # Cargo
+
+  shipfunctions
+
+  # Outlaw
 
   [textlink="Cargo Hauling" link="CargoHauling"/]
 

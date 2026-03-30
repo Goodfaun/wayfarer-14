@@ -1,28 +1,31 @@
 ﻿<Document>
-  # BEATER-CLASS ROCK SHUTTLE
-  <!-- replace poster with any entity you want. -->
+  # HAMGER-CLASS SALVAGE SHUTTLE
   <Box>
-    <GuideEntityEmbed Entity="PosterLegitNoERP" Caption="ban all electronic rave parties"/>
+    <GuideEntityEmbed Entity="MaterialReclaimer" Caption="Recycle!"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ShuttleMapBeater" Caption=""/>
+    <GuideEntityEmbed Entity="ShuttleMapHamger" Caption=""/>
   </Box>
 
   [color=#a4885c]Ship Size:[/color] Small
 
-  [color=#a4885c]Recommended Crew:[/color] 1
+  [color=#a4885c]Recommended Crew:[/color] 1-2
 
-  [color=#a4885c]Power Gen Type:[/color] Plasma
+  [color=#a4885c]Power Gen Type:[/color] uranium
 
   # Shuttle Brief
 
-  "A small sized vessel specializing in ... being a rock?."
+  "A Small sized vessel specializing in salvage operations."
 
-  "why is there no atmos in this shuttle?"
+  "Manufactured by TI"
 
   # Ship Functions
 
-  <!-- put type of jobs functions here-->
+  shipfunctions
+
+  # Salvage
+
+  [textlink="Salavage" link="SectorTopology"/]
 
   # Piloting
 
