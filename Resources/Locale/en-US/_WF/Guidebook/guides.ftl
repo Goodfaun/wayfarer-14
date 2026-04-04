@@ -14,7 +14,7 @@ guide-entry-wayfarer-rule-c2 = Rule C2: Outlaw Guidelines
 guide-entry-wayfarer-rule-d1 = Rule D1: Safe Zones
 guide-entry-wayfarer-rule-d2 = Rule D2: PvP Zones
 
-# Shipyard
+# Shipyard entries
 guide-entry-cgpshipyard = CGP Shipyard
 guide-entry-civshipyard = Civilian Shipyard
 guide-entry-syndicateshipyard = Syndicate Shipyard
@@ -30,6 +30,7 @@ guide-entry-shipyard-dioddef = Dioddef
 guide-entry-shipyard-hamger = Hamger
 guide-entry-shipyard-hammerhead = Hammerhead
 guide-entry-shipyard-heater = Heater
+guide-entry-shipyard-icarus = Icarus
 guide-entry-shipyard-kite = Kite
 guide-entry-shipyard-looter = Looter
 guide-entry-shipyard-medivac = Medivac
