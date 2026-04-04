@@ -126,6 +126,7 @@
   - ShipyardBeater
   - ShipyardConstruct # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardGeode # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
+  - ShipyardIcarus
   - ShipyardRatrod
   - ShipyardTide # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
 
@@ -183,6 +184,11 @@
   id: ShipyardHeater
   name: guide-entry-shipyard-heater
   text: "/ServerInfo/_WF/Guidebook/Shipyard/CgpShipyard/Heater.xml"
+
+- type: guideEntry
+  id: ShipyardIcarus
+  name: guide-entry-shipyard-icarus
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/ScrapShipyard/Icarus.xml"
 
 - type: guideEntry
   id: ShipyardKite
