@@ -66,9 +66,9 @@
         acts: [ "Destruction" ]
   - type: StealTarget
     stealGroup: AltarNanotrasen
-#  - type: Construction # Frontier  # wayfarer edit remove from crafting
-#    graph: AltarsGraph # Frontier  # wayfarer edit remove from crafting
-#    node: AltarNanotrasenNode # Frontier  # wayfarer edit remove from crafting
+  - type: Construction # Frontier
+    graph: AltarsGraph # Frontier
+    node: AltarNanotrasenNode # Frontier
 
 - type: entity
   id: AltarChaos
