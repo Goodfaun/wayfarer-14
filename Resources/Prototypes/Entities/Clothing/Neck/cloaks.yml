@@ -94,16 +94,16 @@
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/herald.rsi
-#wayfarer Nanotrasen item. name, description and sprite with an N logo. decided to remove
-#- type: entity
-#  parent: ClothingNeckBase
-#  id: ClothingNeckCloakNanotrasen
-#  name: nanotrasen cloak
-#  description: A stately blue cloak to represent NanoTrasen.
-#  components:
-#  - type: Sprite
-#    sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
-# commented it out
+# TODO: attention needed wayfarer Nanotrasen item. name, description and sprite with an N logo.
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakNanotrasen
+  name: nanotrasen cloak
+  description: A stately blue cloak to represent NanoTrasen.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
+
 - type: entity
   parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
   id: ClothingNeckCloakCapFormal
