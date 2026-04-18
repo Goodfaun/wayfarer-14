@@ -235,21 +235,22 @@
         store: altar_cloth
         amount: 3
         doAfter: 2
-# Nanotrasen
-    - to: AltarNanotrasenNode
-      conditions:
-      - !type:EntityAnchored {}
-      steps:
-      - component: IdCard
-        name: construction-graph-component-id-card
-        store: altar_component
-        icon:
-          sprite: Objects/Misc/id_cards.rsi
-          state: default
-      - material: Cloth
-        store: altar_cloth
-        amount: 3
-        doAfter: 2
+# Nanotrasen  # wayfarer edit remove nanotrasen from crafting
+#    - to: AltarNanotrasenNode
+#      conditions:
+#      - !type:EntityAnchored {}
+#      steps:
+#      - component: IdCard
+#        name: construction-graph-component-id-card
+#        store: altar_component
+#        icon:
+#          sprite: Objects/Misc/id_cards.rsi
+#          state: default
+#      - material: Cloth
+#        store: altar_cloth
+#        amount: 3
+#        doAfter: 2
+# end of wayfarer edit remove from crafting
 # Chaos
     - to: AltarChaosNode
       conditions:
@@ -494,21 +495,21 @@
       steps:
       - tool: Prying
         doAfter: 3
-
-  - node: AltarNanotrasenNode
-    entity: AltarNanotrasen
-    edges:
-    - to: AltarFrameNode
-      conditions:
-      - !type:EntityAnchored {}
-      completed:
-      - !type:EmptyAllContainers
-        pickup: true
-        emptyAtUser: true
-      steps:
-      - tool: Prying
-        doAfter: 3
-
+    # wayfarer edit remove from crafting
+#  - node: AltarNanotrasenNode
+#    entity: AltarNanotrasen
+#    edges:
+#    - to: AltarFrameNode
+#      conditions:
+#      - !type:EntityAnchored {}
+#      completed:
+#      - !type:EmptyAllContainers
+#        pickup: true
+#        emptyAtUser: true
+#      steps:
+#      - tool: Prying
+#        doAfter: 3
+  # end of wayfarer edit remove from crafting
   - node: AltarChaosNode
     entity: AltarChaos
     edges:

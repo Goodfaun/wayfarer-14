@@ -27,7 +27,7 @@
     snapCardinals: true
   - type: Climbable
   - type: Clickable
-#TODO: attention needed wayfarer nanotrasen item
+#TODO: attention needed wayfarer nanotrasen item, sprite and name
 - type: entity
   id: AltarNanotrasen
   parent: AltarBase
@@ -66,9 +66,9 @@
         acts: [ "Destruction" ]
   - type: StealTarget
     stealGroup: AltarNanotrasen
-  - type: Construction # Frontier
-    graph: AltarsGraph # Frontier
-    node: AltarNanotrasenNode # Frontier
+#  - type: Construction # Frontier  # wayfarer edit remove from crafting
+#    graph: AltarsGraph # Frontier  # wayfarer edit remove from crafting
+#    node: AltarNanotrasenNode # Frontier  # wayfarer edit remove from crafting
 
 - type: entity
   id: AltarChaos
