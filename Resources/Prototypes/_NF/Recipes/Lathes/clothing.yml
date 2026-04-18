@@ -1030,12 +1030,12 @@
   id: ClothingNeckCloakGay
   parent: NFBaseJumpsuitRecipe
   result: ClothingNeckCloakGay
-# wayfarer edit comment remove nanotrasen
-#- type: latheRecipe
-#  id: ClothingNeckCloakNanotrasen
-#  parent: NFBaseJumpsuitRecipe
-#  result: ClothingNeckCloakNanotrasen
-# end of wayfarer edit
+
+- type: latheRecipe
+  id: ClothingNeckCloakNanotrasen
+  parent: NFBaseJumpsuitRecipe
+  result: ClothingNeckCloakNanotrasen
+
 - type: latheRecipe
   id: ClothingNeckCloakAce
   parent: NFBaseJumpsuitRecipe

@@ -94,12 +94,12 @@
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/herald.rsi
-# TODO: attention needed wayfarer Nanotrasen item. name, description and sprite with an N logo.
+# wayfarer edit Nanotrasen item. name, description.
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakNanotrasen
-  name: nanotrasen cloak
-  description: A stately blue cloak to represent NanoTrasen.
+  name: zekke cloak
+  description: A stately blue cloak to represent Zekke sector ...what you mean they printed the Z wrong?.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
