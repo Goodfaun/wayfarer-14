@@ -91,7 +91,7 @@
   - BaseC3SyndicateContrabandNoValue
   - NFBaseMobRestrictions
   id: MobCleanBotSyndie
-  name: syndicate cleanbot
+  name: Stabby cleanbot # wayfarer edit: remove syndicate name
   description: The creep of automation now threatening space janitors with a knife.
   components:
   - type: NpcFactionMember

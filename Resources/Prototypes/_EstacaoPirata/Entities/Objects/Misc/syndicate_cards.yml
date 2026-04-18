@@ -8,7 +8,7 @@
       backSprite:
       - sprite: _EstacaoPirata/Objects/Misc/cards.rsi
         state: singlecard_down_syndicate
-
+#TODO: attention needed wayfarer syndicate stuff
 - type: entity
   parent: CardBoxBase
   id: CardBoxSyndicate

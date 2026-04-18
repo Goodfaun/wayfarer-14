@@ -665,7 +665,7 @@
         color: "#EAE8E8"
   - type: Fiber
     fiberColor: fibers-white
-
+#TODO: attention needed wayfarer: NT item
 - type: entity
   id: TowelColorNT
   name: NanoTrasen brand towel

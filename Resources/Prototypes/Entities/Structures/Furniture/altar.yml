@@ -27,7 +27,7 @@
     snapCardinals: true
   - type: Climbable
   - type: Clickable
-
+#TODO: attention needed wayfarer nanotrasen item
 - type: entity
   id: AltarNanotrasen
   parent: AltarBase

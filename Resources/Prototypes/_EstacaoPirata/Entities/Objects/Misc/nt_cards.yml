@@ -8,7 +8,7 @@
       backSprite:
       - sprite: _EstacaoPirata/Objects/Misc/cards.rsi
         state: singlecard_down_nanotrasen
-
+#TODO: attention needed wayfarer whole thing is nanotrasen
 - type: entity
   parent: CardBoxBase
   id: CardBoxNanotrasen

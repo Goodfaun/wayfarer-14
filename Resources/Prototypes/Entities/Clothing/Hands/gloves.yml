@@ -506,7 +506,7 @@
     - WhitelistChameleon
     - Kangaroo
     - DepositBlacklist # Wayfarer
-
+#TODO: attention needed wayfarer: NT on dusters as well as nanotrasen description
 - type: entity
   parent: [ClothingHandsBase, BaseC1Contraband] # Frontier: BaseGrandTheftContraband<BaseC1Contraband
   id: ClothingHandsKnuckleDustersQM
