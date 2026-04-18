@@ -668,7 +668,7 @@
 #TODO: attention needed wayfarer: NT item
 - type: entity
   id: TowelColorNT
-  name: NanoTrasen brand towel
+  name: colored towel
   parent: BaseTowel
   components:
   - type: Sprite
