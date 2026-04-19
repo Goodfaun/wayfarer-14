@@ -11,7 +11,7 @@
 - type: vessel
   id: GrandQueen
   parent: BaseVessel
-  name: BAM GrandQueen
+  name: BAM Grand Queen
   description: A luxury grand cruiseliner, comes with a spa full kitchen, and a front row seat.
   price: 185000 # 904 *50 appraised 69246.912 *1.6
   category: Large
@@ -34,7 +34,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'GrandQueen CIV{1}'
+        mapNameTemplate: 'Grand Queen CIV{1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
