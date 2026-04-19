@@ -4,7 +4,7 @@
     <GuideEntityEmbed Entity="KitchenElectricRange" Caption="Eat grand food"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ShuttleMapHamger" Caption="placeholder"/>
+    <GuideEntityEmbed Entity="ShuttleMapGrandqueen" Caption=""/>
   </Box>
 
   [color=#a4885c]Ship Size:[/color] Large
