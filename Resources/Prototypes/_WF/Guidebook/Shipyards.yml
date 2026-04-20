@@ -41,6 +41,7 @@
   - ShipyardGasbender # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardGaslight # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardGrandqueen
+  - ShipyardGrandideals
   - ShipyardHamger
   - ShipyardHammer # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardHauler # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
@@ -175,6 +176,11 @@
   id: ShipyardGrandqueen
   name: guide-entry-shipyard-grandqueen
   text: "/ServerInfo/_WF/Guidebook/Shipyard/CivShipyard/Grandqueen.xml"
+  
+- type: guideEntry
+  id: ShipyardGrandideals
+  name: guide-entry-shipyard-grandideals
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/CivShipyard/Grandideals.xml"
 
 - type: guideEntry
   id: ShipyardHamger
