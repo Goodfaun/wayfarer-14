@@ -5737,11 +5737,6 @@ entities:
       targetTemperature: 235
     - type: AtmosPipeColor
       color: '#0055CCFF'
-    - type: UserInterface
-      actors:
-        enum.ThermomachineUiKey.Key:
-        - invalid
-    - type: ActiveUserInterface
 - proto: GasVentPump
   entities:
   - uid: 770
