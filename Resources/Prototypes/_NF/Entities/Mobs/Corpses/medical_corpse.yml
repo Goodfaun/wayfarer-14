@@ -78,11 +78,11 @@
   components:
   - type: StinkyTrait
   - type: Carriable # Carrying system from nyanotrasen.
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-    - id: FoodMeatRotten
-      amount: 5
+#  - type: Butcherable # wayfarer edit: commented out
+#    butcheringType: Spike # wayfarer edit: commented out
+#    spawned: # wayfarer edit: commented out
+#    - id: FoodMeatRotten # wayfarer edit: commented out
+#      amount: 5 # wayfarer edit: commented out
   - type: TriggerOnBeingGibbed
   - type: GibOnTrigger
     deleteItems: true
