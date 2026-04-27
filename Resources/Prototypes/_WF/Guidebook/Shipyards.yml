@@ -176,7 +176,7 @@
   id: ShipyardGrandqueen
   name: guide-entry-shipyard-grandqueen
   text: "/ServerInfo/_WF/Guidebook/Shipyard/CivShipyard/Grandqueen.xml"
-  
+
 - type: guideEntry
   id: ShipyardGrandideals
   name: guide-entry-shipyard-grandideals
@@ -191,6 +191,11 @@
   id: ShipyardHammerhead
   name: guide-entry-shipyard-hammerhead
   text: "/ServerInfo/_WF/Guidebook/Shipyard/MedShipyard/Hammerhead.xml"
+
+- type: guideEntry
+  id: ShipyardHauler
+  name: guide-entry-shipyard-hauler
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/CivShipyard/Hauler.xml"
 
 - type: guideEntry
   id: ShipyardHeater
