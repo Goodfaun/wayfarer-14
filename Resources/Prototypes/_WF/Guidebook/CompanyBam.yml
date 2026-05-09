@@ -1,0 +1,15 @@
+﻿- type: guideEntry
+  id: ShipyardRemedy
+  name: guide-entry-shipyard-remedy
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/MedShipyard/Remedy.xml"
+
+- type: entity
+  parent: PosterBase
+  id: ShuttleMapRemedy
+  name: "Remedy"
+  description: "Detailed map of a Remedy shuttle."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _WF/Guidebook/shuttle_maps/CompanyBam/128x96.rsi
+    state: remedy
