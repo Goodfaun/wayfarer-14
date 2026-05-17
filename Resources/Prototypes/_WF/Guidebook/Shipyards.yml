@@ -68,6 +68,7 @@
   - ShipyardStronghold # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardSurveyor # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardSwan
+  - ShipyardUniform
   - ShipyardVagabond # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
 
 # syndicate shipyard commented out due to not knowing what to replace it name wise with.
@@ -106,7 +107,6 @@
   - ShipyardEagle # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardHammerhead
   - ShipyardMedivac
-  - ShipyardRemedy
   - ShipyardSearchlight # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardSpirit # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardStasis # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml

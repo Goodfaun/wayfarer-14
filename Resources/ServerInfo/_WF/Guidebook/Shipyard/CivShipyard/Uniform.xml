@@ -1,12 +1,11 @@
 ﻿<Document>
-  # REMEDY-CLASS SERVICE-MEDICAL SHUTTLE
+  # UNIFORM-CLASS SERVICE SHUTTLE
   <!-- replace poster with any entity you want. -->
   <Box>
-    <GuideEntityEmbed Entity="MedicalTechFab" Caption="Clinc"/>
-    <GuideEntityEmbed Entity="BoozeDispenser" Caption="and Bar"/>
+    <GuideEntityEmbed Entity="BoozeDispenser" Caption="food and Bar"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ShuttleMapRemedy" Caption=""/>
+    <GuideEntityEmbed Entity="ShuttleMapUniform" Caption=""/>
   </Box>
   <!-- ShuttleMapXXXXX this is where you put your shipname this is gonna be your little map of the ship. -->
   [color=#a4885c]Ship Size:[/color] Medium
@@ -21,11 +20,7 @@
 
   # Shuttle Brief
 
-  "A medium sized vessel specializing in medical and food operations."
-
-  # Medical
-
-  [textlink="Medical" link="Medical"/]
+  "A medium sized vessel specializing in food operations."
 
   # Piloting
 

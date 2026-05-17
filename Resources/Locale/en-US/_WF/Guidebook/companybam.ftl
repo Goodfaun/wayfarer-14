@@ -1,2 +1,2 @@
 ﻿# BAM guidebook Ship entries
-guide-entry-shipyard-remedy = Remedy
+guide-entry-shipyard-uniform = Uniform
