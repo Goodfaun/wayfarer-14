@@ -3207,6 +3207,8 @@ entities:
     - type: Transform
       pos: -3.5,-5.5
       parent: 1
+    - type: Door
+      state: Open
 - proto: DecalSpawnerFlowers
   entities:
   - uid: 62
