@@ -19,4 +19,9 @@ Color supports either hexadecimal or most HTML color names. For example:
 - [color=#ff0000]\[color=#ff0000\]\[\/color\][/color]
 - [color=red]\[color=red\]\[\/color\][/color]
 
+  simple way to add easier way to fill out documents without editing the whole document. with forms and fields.
+- [color=tan]\[form\][/color] — to add a free write part
+- [color=tan]\[signature\][/color] — for easy "name, role", do note this does not do the character signature just fills in their name and role.
+- [color=tan]\[check\][/color] — allows for empty square, yes checkmark, or a no cross.
+
 </Document>
