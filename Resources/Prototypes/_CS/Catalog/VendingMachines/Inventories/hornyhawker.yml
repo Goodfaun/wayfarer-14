@@ -2,47 +2,47 @@
   id: HornyHawkerInventory
   startingInventory:
     # Collars
-    ClothingNeckCollarEpi: 25
-    ClothingNeckCollarEngi: 25
-    ClothingNeckCollarLogi: 25
-    ClothingNeckCollarMed: 25
-    ClothingNeckCollarBlack: 25
-    ClothingNeckCollarBlue: 25
-    ClothingNeckCollarPink: 25
-    ClothingNeckBellCollar: 25
-    ClothingNeckShockCollar: 25
+    ClothingNeckCollarEpi: 4294967295 # wayfarer 25>Infinite(4294967295)
+    ClothingNeckCollarEngi: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckCollarLogi: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckCollarMed: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckCollarBlack: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckCollarBlue: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckCollarPink: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckBellCollar: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckShockCollar: 4294967295 # wayfarer 25>Infinite
     # Advanced Collars
-    ClothingNeckAdvancedCollarBlack: 25
-    ClothingNeckAdvancedCollarBlue: 25
-    ClothingNeckAdvancedCollarPink: 25
-    ClothingNeckAdvancedCollarShock: 25
-    ClothingNeckAdvancedCollarBell: 25
-    ClothingNeckAdvancedCollarEpi: 25
-    ClothingNeckAdvancedCollarEngi: 25
-    ClothingNeckAdvancedCollarLogi: 25
-    ClothingNeckAdvancedCollarMed: 25
-    ClothingNeckAdvancedCollarSec: 25
-    ClothingNeckAdvancedCollarCmd: 25
-    ClothingNeckAdvancedCollarCC: 25
-    ClothingNeckAdvancedCollarSyndi: 25
-    AdvCollarModuleBondage: 25
-    AdvCollarModuleShock: 25
-    AdvCollarModuleJingling: 25
-    AdvCollarModuleClothingLock: 25
+    ClothingNeckAdvancedCollarBlack: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarBlue: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarPink: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarShock: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarBell: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarEpi: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarEngi: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarLogi: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarMed: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarSec: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarCmd: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarCC: 4294967295 # wayfarer 25>Infinite
+    ClothingNeckAdvancedCollarSyndi: 4294967295 # wayfarer 25>Infinite
+    AdvCollarModuleBondage: 4294967295 # wayfarer 25>Infinite
+    AdvCollarModuleShock: 4294967295 # wayfarer 25>Infinite
+    AdvCollarModuleJingling: 4294967295 # wayfarer 25>Infinite
+    AdvCollarModuleClothingLock: 4294967295 # wayfarer 25>Infinite
     # Restraints
     # FuzzycuffsBlack: 25
     # FuzzycuffsBlue: 25
     # FuzzycuffsPink: 25
     # FuzzycuffsPurple: 25
     # FuzzycuffsRed: 25
-    Zipties: 15
+    Zipties: 4294967295 # wayfarer 25>Infinite
     # TwistTies: 15
     # ClothingOuterStraightjacketBodysuit: 24
     # Whips & Paddles
-    WhipPink: 25
-    WhipTeal: 25
-    SpankPinkPaddle: 25
-    SpankTealPaddle: 25
+    WhipPink: 4294967295 # wayfarer 25>Infinite
+    WhipTeal: 4294967295 # wayfarer 25>Infinite
+    SpankPinkPaddle: 4294967295 # wayfarer 25>Infinite
+    SpankTealPaddle: 4294967295 # wayfarer 25>Infinite
     # Sexy Outfits
     # CoolCoyoteClothesSexyMaid: 25
     # CoolCoyoteClothesSexyclown: 25
@@ -63,12 +63,12 @@
     # ClothingHandsBeeWarmers: 25
     # ClothingHandsCoderWarmers: 25
     # Toys - Vibrators
-    LewdVibeGreen: 25
-    LewdVibePink: 25
-    LewdVibeRed: 25
-    LewdVibeTeal: 25
-    LewdVibeYellow: 25
-    LewdWand: 25
+    LewdVibeGreen: 4294967295 # wayfarer 25>Infinite
+    LewdVibePink: 4294967295 # wayfarer 25>Infinite
+    LewdVibeRed: 4294967295 # wayfarer 25>Infinite
+    LewdVibeTeal: 4294967295 # wayfarer 25>Infinite
+    LewdVibeYellow: 4294967295 # wayfarer 25>Infinite
+    LewdWand: 4294967295 # wayfarer 25>Infinite
     # Toys - Fleshlights
     # LewdFleshlightGreen: 25
     # LewdFleshlightPink: 25
@@ -84,28 +84,28 @@
     # NormalDildo: 25
     # TentacleDildo: 25
     # Candles
-    CandleRed: 26
-    CandleBlack: 25
-    CandleRedSmall: 25
-    CandleBlackSmall: 25
+    CandleRed: 4294967295 # wayfarer 26>Infinite
+    CandleBlack: 4294967295 # wayfarer 25>Infinite
+    CandleRedSmall: 4294967295 # wayfarer 25>Infinite
+    CandleBlackSmall: 4294967295 # wayfarer 25>Infinite
     # Bondage Gear
-    BlindfoldBDSM: 20
-    ClothingMaskMuzzle: 20
-    WristCuffs: 20
-    AnkleCuffs: 20
-    BondageMitts: 20
-    BondageArmSleeve: 20
-    ClothingShoesBase: 20
-    BondageHarness: 20
+    BlindfoldBDSM: 4294967295 # wayfarer 20>Infinite
+    ClothingMaskMuzzle: 4294967295 # wayfarer 20>Infinite
+    WristCuffs: 4294967295 # wayfarer 20>Infinite
+    AnkleCuffs: 4294967295 # wayfarer 20>Infinite
+    BondageMitts: 4294967295 # wayfarer 20>Infinite
+    BondageArmSleeve: 4294967295 # wayfarer 20>Infinite
+    ClothingShoesBase: 4294967295 # wayfarer 20>Infinite
+    BondageHarness: 4294967295 # wayfarer 20>Infinite
     # Lubricants
     DrinkSpaceLube: 5
     # Snacks
     FoodTinPeachesMaint: 10
     # Weapons
-    WeaponSizeManipulator: 5
+    WeaponSizeManipulator: 4294967295 # wayfarer 5>Infinite
     # Wayfarer
-    EncryptionKeyHorny: 100
-    EncryptionKeyExtremeKink: 100
+    EncryptionKeyHorny: 4294967295 # wayfarer 100>Infinite
+    EncryptionKeyExtremeKink: 4294967295 # wayfarer 100>Infinite
     # End Wayfarer
   contrabandInventory:
     # Snacks
