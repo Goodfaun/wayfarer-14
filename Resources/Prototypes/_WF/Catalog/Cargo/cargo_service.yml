@@ -17,3 +17,13 @@
   cost: 5000
   category: cargoproduct-category-name-service
   group: market
+
+- type: cargoProduct
+  id: ServiceHornyHawkervendRestock
+  icon:
+    sprite: _Mono/Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: VendingMachineRestockHornyHawker
+  cost: 10000
+  category: cargoproduct-category-name-service
+  group: market
