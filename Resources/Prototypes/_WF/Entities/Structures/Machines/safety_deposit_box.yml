@@ -18,6 +18,7 @@
       - Document
       - Paper
       - Write
+      - DepositWhitelist # Allows specific whitelisted items
       components:
       - Clothing
     blacklist:
