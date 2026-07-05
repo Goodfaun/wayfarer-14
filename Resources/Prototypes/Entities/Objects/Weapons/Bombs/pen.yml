@@ -30,6 +30,8 @@
   - type: Tag
     tags:
     - DepositBlacklist
+    - Write
+    - Pen
   # End Wayfarer
 
 - type: entity
