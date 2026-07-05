@@ -37,6 +37,7 @@
       - RCD  # Prevents NFSD/Pirate RCDs
       - Headset # prevent headsets
       - EncryptionKeyHolder # prevent encryptionkey holder items
+      - Contraband # prevents contraband items from going in.
       tags:
       - JawsOfLife  # Additional check for jaws of life
       - HudSecurity  # Prevents security/CGP HUDs
