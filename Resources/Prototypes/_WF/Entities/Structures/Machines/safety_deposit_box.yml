@@ -35,6 +35,8 @@
       - AdvancedCollar  # Prevents advanced collars
       - Prying  # Prevents jaws of life (syndie and regular)
       - RCD  # Prevents NFSD/Pirate RCDs
+      - Headset # prevent headsets
+      - EncryptionKeyHolder # prevent encryptionkey holder items
       tags:
       - JawsOfLife  # Additional check for jaws of life
       - HudSecurity  # Prevents security/CGP HUDs
