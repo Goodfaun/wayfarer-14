@@ -690,6 +690,7 @@
     - PlushieSharkBlue
     - Payload
     - ClothMade
+    - DepositWhitelist # wayfarer
 
 - type: entity
   parent: PlushieSharkBlue
@@ -710,6 +711,7 @@
     - PlushieSharkPink
     - Payload
     - ClothMade
+    - DepositWhitelist # wayfarer
 
 - type: entity
   parent: PlushieSharkBlue
@@ -730,6 +732,7 @@
     - PlushieSharkGrey
     - Payload
     - ClothMade
+    - DepositWhitelist # wayfarer
 
 - type: entity
   parent: BasePlushie
