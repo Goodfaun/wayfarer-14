@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 07/07/2026 04:27:49
-  entityCount: 1879
+  time: 07/07/2026 04:33:36
+  entityCount: 1881
 maps: []
 grids:
 - 1
@@ -4720,6 +4720,31 @@ entities:
     - type: Transform
       pos: 2.5,-1.5
       parent: 1
+- proto: ChemMaster
+  entities:
+  - uid: 1880
+    components:
+    - type: Transform
+      pos: -2.5,-0.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        beakerSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: 1881
+        outputSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        machine_board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        machine_parts: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
 - proto: ClothingBeltChefFilled
   entities:
   - uid: 639
@@ -10079,6 +10104,12 @@ entities:
     - type: Transform
       pos: -4.7378616,-1.6404984
       parent: 1
+  - uid: 1881
+    components:
+    - type: Transform
+      parent: 1880
+    - type: Physics
+      canCollide: False
 - proto: LockerBotanistFilled
   entities:
   - uid: 1348
