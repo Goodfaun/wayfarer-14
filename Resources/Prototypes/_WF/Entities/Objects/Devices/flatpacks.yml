@@ -42,3 +42,80 @@
   components:
   - type: Flatpack
     entity: WFOutlawAssembler
+
+#saplings for trees, make sapling sprites for each.
+#TODO: make sapling sprites
+- type: entity
+  parent: BaseNFFlatpack
+  id: FloraTreeLargeFlatpack
+  name: large tree sapling
+  description: Use a multitool to activate the instant growth.
+  components:
+  - type: Flatpack
+    entity: FloraTreeLarge
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: FloraTreeFlatpack
+  name: tree sapling
+  description: Use a multitool to activate the instant growth.
+  components:
+  - type: Flatpack
+    entity: FloraTree
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: FloraTreeConiferFlatpack
+  name: conifer tree sapling
+  description: Use a multitool to activate the instant growth.
+  components:
+  - type: Flatpack
+    entity: FloraTreeConifer
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: FloraTreeSnowFlatpack
+  name: snowy tree sapling
+  description: Use a multitool to activate the instant growth.
+  components:
+  - type: Flatpack
+    entity: FloraTreeSnow
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: FloraTreepalmFlatpack
+  name: palm tree sapling
+  description: Use a multitool to activate the instant growth.
+  components:
+  - type: Flatpack
+    entity: FloraTreePalm
+
+#wire cut
+- type: entity
+  parent: BaseNFFlatpack
+  id: ShadwoTreeFlatpack
+  name: shadow tree sapling
+  description: Use a multitool to activate the instant growth.
+  components:
+  - type: Flatpack
+    entity: ShadowTree
+
+#wire cut
+- type: entity
+  parent: BaseNFFlatpack
+  id: LightTreeFlatpack
+  name: glowing tree sapling
+  description: Use a multitool to activate the instant growth.
+  components:
+  - type: Flatpack
+    entity: LightTree
+
+#emag
+- type: entity
+  parent: BaseNFFlatpack
+  id: FloraTreeChristmasFlatpack
+  name: christmas tree sapling
+  description: Use a multitool to activate the instant growth.
+  components:
+  - type: Flatpack
+    entity: FloraTreeChristmas01
