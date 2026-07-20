@@ -54,7 +54,7 @@
   - type: Sprite
     sprite: _WF/Objects/Devices/saplings.rsi #TODO: Replace placeholder
     layers:
-    - state: floratreelargesapling
+    - state: floratreelargesapling # placeholder
   - type: Flatpack
     entity: FloraTreeLarge
 
@@ -65,9 +65,9 @@
   description: Use a multitool to activate the instant growth.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/potted_plants.rsi #TODO: Replace placeholder
+    sprite: _WF/Objects/Devices/saplings.rsi #TODO: Replace placeholder
     layers:
-    - state: plant-01
+    - state: smalltreesapling # placeholder
   - type: Flatpack
     entity: FloraTree
 
@@ -78,9 +78,9 @@
   description: Use a multitool to activate the instant growth.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/potted_plants.rsi #TODO: Replace placeholder
+    sprite: _WF/Objects/Devices/saplings.rsi #TODO: Replace placeholder
     layers:
-    - state: plant-22
+    - state: conifertreesapling # placeholder
   - type: Flatpack
     entity: FloraTreeConifer
 
@@ -91,9 +91,9 @@
   description: Use a multitool to activate the instant growth.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/potted_plants.rsi #TODO: Replace placeholder
+    sprite: _WF/Objects/Devices/saplings.rsi #TODO: Replace placeholder
     layers:
-    - state: plant-28
+    - state: snowtreesapling # placeholder
   - type: Flatpack
     entity: FloraTreeSnow
 
@@ -104,9 +104,9 @@
   description: Use a multitool to activate the instant growth.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/potted_plants.rsi #TODO: Replace placeholder
+    sprite: _WF/Objects/Devices/saplings.rsi #TODO: Replace placeholder
     layers:
-    - state: plant-29
+    - state: palmtreesapling # placeholder
   - type: Flatpack
     entity: FloraTreePalm
 
@@ -118,9 +118,9 @@
   description: Use a multitool to activate the instant growth.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/potted_plants.rsi #TODO: Replace placeholder
+    sprite: _WF/Objects/Devices/saplings.rsi #TODO: Replace placeholder
     layers:
-    - state: plant-07
+    - state: shadowtreesapling # placeholder
   - type: Flatpack
     entity: ShadowTree
 
@@ -132,9 +132,9 @@
   description: Use a multitool to activate the instant growth.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/potted_plants.rsi #TODO: Replace placeholder
+    sprite: _WF/Objects/Devices/saplings.rsi #TODO: Replace placeholder
     layers:
-    - state: plant-09
+    - state: lighttreesapling # placeholder
   - type: Flatpack
     entity: LightTree
 
@@ -146,8 +146,8 @@
   description: Use a multitool to activate the instant growth.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/potted_plants.rsi #TODO: Replace placeholder
+    sprite: _WF/Objects/Devices/saplings.rsi #TODO: Replace placeholder
     layers:
-    - state: plant-06 #placeholder
+    - state: christmastreesapling # placeholder
   - type: Flatpack
     entity: FloraTreeChristmas01
