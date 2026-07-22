@@ -47,10 +47,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: grid
-    - type: Transform
-      pos: -0.765625,-0.4375
-      parent: invalid
+      name: sanctuary
     - type: MapGrid
       chunks:
         0,0:
