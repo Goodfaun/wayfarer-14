@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: BAM Sanctuary
   description: A luxury grand cruiseliner, comes with a spa full kitchen, and a front row seat.
-  price: 105000 # 648 *50 appraised 45500 *1.30 (service: kitchen, bar, botany) 101270
+  price: 121000 # 648 *50 appraised 60200 *1.30 (service: kitchen, bar, botany) 120380
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_WF/Shuttles/Civilian/sanctuary.yml
