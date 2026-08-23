@@ -22,7 +22,7 @@
   - type: Currency
     price:
       FrontierUplinkCoin: 1
-# Wayfarer Start : Add tag
+# Wayfarer: Add tag whitelist
   - type: Tag
     tags:
     - WhitelistWallet
