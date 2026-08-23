@@ -21,7 +21,7 @@
   - type: Currency
     price:
       Telecrystal: 1
-# Wayfarer start : Add tag
+# Wayfarer: Add tag whitelist
   - type: Tag
     tags:
     - WhitelistWallet
