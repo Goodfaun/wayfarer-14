@@ -25,7 +25,7 @@
   - type: Tag
     tags:
     - WhitelistWallet
-# Wayfarer end
+# End Wayfarer
 
 - type: entity
   parent: Telecrystal
