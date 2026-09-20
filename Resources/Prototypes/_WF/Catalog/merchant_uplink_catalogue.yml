@@ -2073,6 +2073,7 @@
     WayfarerMerchantToken: 60
   categories:
   - UplinkMerchantsFood
+  - UplinkMerchantsMedical
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
