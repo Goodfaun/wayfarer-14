@@ -37,15 +37,15 @@
   - type: StorageFill
     contents:
     - id: CandleBlueSmallInfinite
-      amount: 5
+      amount: 2
     - id: CandleRedSmallInfinite
-      amount: 5
+      amount: 3
     - id: CandleGreenSmallInfinite
-      amount: 5
+      amount: 2
     - id: CandlePurpleSmallInfinite
-      amount: 5
+      amount: 2
     - id: CandleBlackSmallInfinite
-      amount: 4
+      amount: 3
 
 - type: entity
   id: CrateCandlesInfinite
