@@ -936,7 +936,7 @@
   id: UplinkMerchantBarrelAluminium
   name:  uplink-merchant-barrelaluminium-name
   description: uplink-merchant-barrelaluminium-desc
-  productEntity: ChemicalBarrelAluminum
+  productEntity: ChemicalBarrelAluminium
   icon: { sprite: _NF/Objects/Storage/Barrels/white.rsi, state: icon }
   cost:
     WayfarerMerchantToken: 10
@@ -1581,7 +1581,7 @@
   id: UplinkMerchantBarrelLemonJuice
   name:  uplink-merchant-barrellemon-name
   description: uplink-merchant-barrellemon-desc
-  productEntity: ChemicalBarrelLime
+  productEntity: ChemicalBarrelJuiceLime
   icon: { sprite: Objects/Consumable/Drinks/lemonjuice.rsi, state: icon }
   cost:
     WayfarerMerchantToken: 10

@@ -36,16 +36,14 @@
   components:
   - type: StorageFill
     contents:
-    - id: CandleSmallInfinite
-      amount: 4
     - id: CandleBlueSmallInfinite
-      amount: 4
+      amount: 5
     - id: CandleRedSmallInfinite
-      amount: 4
+      amount: 5
     - id: CandleGreenSmallInfinite
-      amount: 4
+      amount: 5
     - id: CandlePurpleSmallInfinite
-      amount: 4
+      amount: 5
     - id: CandleBlackSmallInfinite
       amount: 4
 
