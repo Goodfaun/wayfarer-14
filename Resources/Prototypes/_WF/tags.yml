@@ -17,6 +17,9 @@
   id: CandleRed
 
 - type: Tag
+  id: CandleInfinite
+
+- type: Tag
   id: DataChit
 
 - type: Tag
