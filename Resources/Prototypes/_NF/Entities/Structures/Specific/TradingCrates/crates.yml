@@ -37,6 +37,7 @@
         - MachineLayer
   - type: WFBonusCurrency #Wayfarer: Add additional currency
     currency: WayfarerMerchantToken
+    amount: 2
 
 - type: entity
   parent: CrateTradeBaseSecure
