@@ -1,0 +1,14 @@
+﻿- type: entity
+  parent: CrateFreezer
+  id: CrateSurgeryFreezer
+  name: surgeryfreezer
+  components:
+  - type: Icon
+    sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi
+  - type: Sprite
+    sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi
+  - type: AntiRottingContainer
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
+  - type: Paintable
+    group: null

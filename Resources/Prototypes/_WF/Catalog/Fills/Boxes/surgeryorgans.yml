@@ -1,0 +1,729 @@
+﻿- type: entity
+  id: OrganBagAvali
+  parent: TrashBagBlue
+  name: avali organ bag
+  description: Contains Avali organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganAvaliEyes
+      amount: 2
+    - id: OrganAvaliHeart
+      amount: 2
+    - id: OrganAvaliKidneys
+      amount: 2
+    - id: OrganAvaliLiver
+      amount: 2
+    - id: OrganAvaliLungs
+      amount: 2
+    - id: OrganAvaliStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagHuman
+  parent: TrashBagBlue
+  name: human organ bag
+  description: Contains Human organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganHumanHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganHumanLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganHumanStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagOni
+  parent: TrashBagBlue
+  name: oni organ bag
+  description: Contains Oni organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganHumanHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganHumanLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganHumanStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagDiona
+  parent: TrashBagBlue
+  name: diona organ bag
+  description: Contains Diona organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganHumanHeart
+      amount: 2
+    - id: OrganHumanStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagSlime
+  parent: TrashBagBlue
+  name: slime organ bag
+  description: Contains Slime organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganSlimeLungs
+      amount: 2
+
+- type: entity
+  id: OrganBagChitinid
+  parent: TrashBagBlue
+  name: chitinid organ bag
+  description: Contains Chitinid organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganHumanHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganChitinidLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganChitinidStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagFelinid
+  parent: TrashBagBlue
+  name: felinid organ bag
+  description: Contains Felinid organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganAnimalLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganVulpkaninStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagFeroxi
+  parent: TrashBagBlue
+  name: feroxi organ bag
+  description: Contains Feroxi organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganAnimalLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganFeroxiStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagMoth
+  parent: TrashBagBlue
+  name: moth organ bag
+  description: Contains Moth organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganAnimalLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganMothStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagRodentia
+  parent: TrashBagBlue
+  name: rodentia organ bag
+  description: Contains Rodentia organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganAnimalLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganAnimalStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagGoblin
+  parent: TrashBagBlue
+  name: goblin organ bag
+  description: Contains Goblin organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganGoblinEyes
+      amount: 2
+    - id: OrganGoblinHeart
+      amount: 2
+    - id: OrganGoblinKidneys
+      amount: 2
+    - id: OrganGoblinLiver
+      amount: 2
+    - id: OrganGoblinLungs
+      amount: 2
+    - id: OrganGoblinStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagDwarf
+  parent: TrashBagBlue
+  name: dwarf organ bag
+  description: Contains Dwarf organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganDwarfHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganDwarfLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganDwarfStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagHarpy
+  parent: TrashBagBlue
+  name: harpy organ bag
+  description: Contains Harpy organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganAnimalKidneys
+      amount: 2
+    - id: OrganHumanLiver
+      amount: 2
+    - id: OrganHarpyLungs
+      amount: 2
+    - id: OrganAnimalStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagSheleg
+  parent: TrashBagBlue
+  name: sheleg organ bag
+  description: Contains Sheleg organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganShelegEyes
+      amount: 2
+    - id: OrganShelegHeart
+      amount: 2
+    - id: OrganShelegKidneys
+      amount: 2
+    - id: OrganShelegLiver
+      amount: 2
+    - id: OrganShelegLungs
+      amount: 2
+    - id: OrganShelegStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagReptilian
+  parent: TrashBagBlue
+  name: reptilian organ bag
+  description: Contains Reptilian organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganAnimalLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganReptilianStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagShadekin
+  parent: TrashBagBlue
+  name: shadekin organ bag
+  description: Contains Shadekin organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganShadekinEyes
+      amount: 2
+    - id: OrganShadekinHeart
+      amount: 2
+    - id: OrganShadekinKidneys
+      amount: 2
+    - id: OrganShadekinLiver
+      amount: 2
+    - id: OrganShadekinStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagOvinia
+  parent: TrashBagBlue
+  name: ovinia organ bag
+  description: Contains Ovinia organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganAnimalKidneys
+      amount: 2
+    - id: OrganAnimalLiver
+      amount: 2
+    - id: OrganAnimalLungs
+      amount: 2
+    - id: OrganAnimalStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagTajaran
+  parent: TrashBagBlue
+  name: tajaran organ bag
+  description: Contains Tajaran organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganAnimalLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganVulpkaninStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagVulpkanin
+  parent: TrashBagBlue
+  name: vulpkanin organ bag
+  description: Contains Vulpkanin organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganHumanEyes
+      amount: 2
+    - id: OrganAnimalHeart
+      amount: 2
+    - id: OrganHumanKidneys
+      amount: 2
+    - id: OrganAnimalLiver
+      amount: 2
+    - id: OrganHumanLungs
+      amount: 2
+    - id: OrganVulpkaninStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagArachnid
+  parent: TrashBagBlue
+  name: arachnid organ bag
+  description: Contains Arachnid organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganArachnidKidneys
+      amount: 2
+    - id: OrganArachnidLiver
+      amount: 2
+    - id: OrganAnimalLungs
+      amount: 2
+    - id: OrganArachnidStomach
+      amount: 2
+    - id: OrganArachnidEyes
+      amount: 2
+    - id: OrganArachnidHeart
+      amount: 2
+
+- type: entity
+  id: OrganBagVox
+  parent: TrashBagBlue
+  name: vox organ bag
+  description: Contains Vox organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganVoxEyes
+      amount: 2
+    - id: OrganVoxHeart
+      amount: 2
+    - id: OrganVoxKidneys
+      amount: 2
+    - id: OrganVoxLiver
+      amount: 2
+    - id: OrganVoxLungs
+      amount: 2
+    - id: OrganVoxStomach
+      amount: 2
+
+- type: entity
+  id: OrganBagAurelianVox
+  parent: TrashBagBlue
+  name: aurelian vox organ bag
+  description: Contains Aurelian Vox organs for surgery
+  components:
+  - type: StorageFill
+    contents:
+    - id: OrganAurelianVoxEyes
+      amount: 2
+    - id: OrganAurelianVoxHeart
+      amount: 2
+    - id: OrganAurelianVoxKidneys
+      amount: 2
+    - id: OrganAurelianVoxLiver
+      amount: 2
+    - id: OrganAurelianVoxLungs
+      amount: 2
+    - id: OrganAurelianVoxStomach
+      amount: 2
+
+- type: entity
+  id: CrateOrganAvali
+  parent: CrateSurgeryFreezer
+  name: avali organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatResomi
+      amount: 20
+    - id: OrganBagAvali
+      amount: 2
+
+- type: entity
+  id: CrateOrganHuman
+  parent: CrateSurgeryFreezer
+  name: human organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatHuman
+      amount: 20
+    - id: OrganBagHuman
+      amount: 2
+
+- type: entity
+  id: CrateOrganOni
+  parent: CrateSurgeryFreezer
+  name: oni organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatHuman
+      amount: 20
+    - id: OrganBagOni
+      amount: 2
+
+- type: entity
+  id: CrateOrganDiona
+  parent: CrateSurgeryFreezer
+  name: diona organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatPlant
+      amount: 20
+    - id: OrganBagDiona
+      amount: 2
+
+- type: entity
+  id: CrateOrganSlime
+  parent: CrateSurgeryFreezer
+  name: slime organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatSlime
+      amount: 20
+    - id: OrganBagSlime
+      amount: 2
+
+- type: entity
+  id: CrateOrganChitinid
+  parent: CrateSurgeryFreezer
+  name: chitinid organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeat
+      amount: 20
+    - id: OrganBagChitinid
+      amount: 2
+
+- type: entity
+  id: CrateOrganFelinid
+  parent: CrateSurgeryFreezer
+  name: felinid organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatHuman
+      amount: 20
+    - id: OrganBagFelinid
+      amount: 2
+
+- type: entity
+  id: CrateOrganFeroxi
+  parent: CrateSurgeryFreezer
+  name: feroxi organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeat
+      amount: 20
+    - id: OrganBagFeroxi
+      amount: 2
+
+- type: entity
+  id: CrateOrganMoth
+  parent: CrateSurgeryFreezer
+  name: moth organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeat
+      amount: 20
+    - id: OrganBagMoth
+      amount: 2
+
+- type: entity
+  id: CrateOrganRodentia
+  parent: CrateSurgeryFreezer
+  name: rodentia organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatRat
+      amount: 20
+    - id: OrganBagRodentia
+      amount: 2
+
+- type: entity
+  id: CrateOrganGoblin
+  parent: CrateSurgeryFreezer
+  name: goblin organ freezer
+  description: Contains 12 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatGoblin
+      amount: 12
+    - id: OrganBagGoblin
+      amount: 2
+
+- type: entity
+  id: CrateOrganDwarf
+  parent: CrateSurgeryFreezer
+  name: dwarf organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatHuman
+      amount: 20
+    - id: OrganBagDwarf
+      amount: 2
+
+- type: entity
+  id: CrateOrganHarpy
+  parent: CrateSurgeryFreezer
+  name: harpy organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatHuman
+      amount: 20
+    - id: OrganBagHarpy
+      amount: 2
+
+- type: entity
+  id: CrateOrganSheleg
+  parent: CrateSurgeryFreezer
+  name: sheleg organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatSheleg
+      amount: 20
+    - id: OrganBagSheleg
+      amount: 2
+
+- type: entity
+  id: CrateOrganReptilian
+  parent: CrateSurgeryFreezer
+  name: reptilian organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatLizard
+      amount: 20
+    - id: OrganBagReptilian
+      amount: 2
+
+- type: entity
+  id: CrateOrganShadekin
+  parent: CrateSurgeryFreezer
+  name: shadekin organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeat
+      amount: 20
+    - id: OrganBagShadekin
+      amount: 2
+
+- type: entity
+  id: CrateOrganOvinia
+  parent: CrateSurgeryFreezer
+  name: ovinia organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeat
+      amount: 20
+    - id: OrganBagOvinia
+      amount: 2
+
+- type: entity
+  id: CrateOrganTajaran
+  parent: CrateSurgeryFreezer
+  name: tajaran organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatHuman
+      amount: 20
+    - id: OrganBagTajaran
+      amount: 2
+
+- type: entity
+  id: CrateOrganVulpkanin
+  parent: CrateSurgeryFreezer
+  name: vulpkanin organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeat
+      amount: 20
+    - id: OrganBagVulpkanin
+      amount: 2
+
+- type: entity
+  id: CrateOrganArachnid
+  parent: CrateSurgeryFreezer
+  name: arachnid organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatSpider
+      amount: 20
+    - id: OrganBagArachnid
+      amount: 2
+
+- type: entity
+  id: CrateOrganVox
+  parent: CrateSurgeryFreezer
+  name: vox organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatChicken
+      amount: 20
+    - id: OrganBagVox
+      amount: 2
+
+- type: entity
+  id: CrateOrganAurelianVox
+  parent: CrateSurgeryFreezer
+  name: aurelian vox organ freezer
+  description: Contains 20 pieces of muscle tissue as well as some organs wrapped inside bags.
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeatChicken
+      amount: 20
+    - id: OrganBagAurelianVox
+      amount: 2
