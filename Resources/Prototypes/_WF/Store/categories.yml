@@ -46,6 +46,10 @@
   id: UplinkOutlawMisc
   name: store-category-outlawmisc
 
+- type: storeCategory
+  id: UplinkOutlawOrgans
+  name: store-category-outlaworgans
+
 #Merchant Stuff
 
 - type: storeCategory

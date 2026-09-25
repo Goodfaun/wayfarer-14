@@ -18,6 +18,7 @@
     - UplinkOutlawConversion
     - UplinkOutlawBundles
     - UplinkOutlawMisc
+    - UplinkOutlawOrgans
     currencyWhitelist:
     - Doubloon
     balance:

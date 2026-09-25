@@ -439,7 +439,7 @@
     whitelist:
       tags:
       - OutlawUplinkBase
-      
+
 # Outlaw RCD
 - type: listing
   id: UplinkOutlawRCD
@@ -482,7 +482,7 @@
   productEntity: ComputerIFFFlatpack
   icon: { sprite: _NF/Objects/Devices/flatpack.rsi, state: pirate_lathe }
   cost:
-    Doubloon: 6 
+    Doubloon: 6
   categories:
   - UplinkOutlawUtility
   conditions:
@@ -1458,3 +1458,357 @@
     whitelist:
       tags:
       - OutlawUplinkBase
+
+#organs
+- type: listing
+  id: UplinkOutlawAvaliOrgans
+  name:  uplink-pirate-avaliorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganAvali
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawHumanOrgans
+  name:  uplink-pirate-humanorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganHuman
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawOniOrgans
+  name:  uplink-pirate-oniorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganOni
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawDionaOrgans
+  name:  uplink-pirate-dionaorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganDiona
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawSlimeOrgans
+  name:  uplink-pirate-slimeorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganSlime
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawChitinidOrgans
+  name:  uplink-pirate-chitinidorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganChitinid
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawFelinidOrgans
+  name:  uplink-pirate-felinidorgan-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganFelinid
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawFeroxiOrgans
+  name:  uplink-pirate-feroxiorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganFeroxi
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawMothOrgans
+  name:  uplink-pirate-mothorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganMoth
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawRodentiaOrgans
+  name:  uplink-pirate-rodentiaorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganRodentia
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawGoblinOrgans
+  name:  uplink-pirate-goblinorgans-name
+  description: uplink-pirate-goblinorgan-desc
+  productEntity: CrateOrganGoblin
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawDwarfOrgans
+  name:  uplink-pirate-dwarforgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganDwarf
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawHarpyOrgans
+  name:  uplink-pirate-harpyorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganHarpy
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawShelegOrgans
+  name:  uplink-pirate-shelegorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganSheleg
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawReptilianOrgans
+  name:  uplink-pirate-reptilianorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganReptilian
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawShadekinOrgans
+  name:  uplink-pirate-shadekinorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganShadekin
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawOviniaOrgans
+  name:  uplink-pirate-oviniaorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganOvinia
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawTajaranOrgans
+  name:  uplink-pirate-tajaranorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganTajaran
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawVulpkaninOrgans
+  name:  uplink-pirate-vulpkaninorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganVulpkanin
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawArachnidOrgans
+  name:  uplink-pirate-arachnidorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganArachnid
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawVoxOrgans
+  name:  uplink-pirate-voxorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganVox
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+
+- type: listing
+  id: UplinkOutlawAurelianVoxOrgans
+  name:  uplink-pirate-aurelianvoxorgans-name
+  description: uplink-pirate-organ-desc
+  productEntity: CrateOrganAurelianVox
+  icon: { sprite: _WF/Structures/Storage/Crates/surgeryfreezer.rsi, state: icon }
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkOutlawOrgans
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - OutlawUplinkBase
+

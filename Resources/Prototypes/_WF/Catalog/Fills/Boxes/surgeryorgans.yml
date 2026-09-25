@@ -7,17 +7,17 @@
   - type: StorageFill
     contents:
     - id: OrganAvaliEyes
-      amount: 2
+      amount: 1
     - id: OrganAvaliHeart
-      amount: 2
+      amount: 1
     - id: OrganAvaliKidneys
-      amount: 2
+      amount: 1
     - id: OrganAvaliLiver
-      amount: 2
+      amount: 1
     - id: OrganAvaliLungs
-      amount: 2
+      amount: 1
     - id: OrganAvaliStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagHuman
@@ -28,17 +28,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganHumanHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganHumanLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganHumanStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagOni
@@ -49,17 +49,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganHumanHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganHumanLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganHumanStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagDiona
@@ -70,11 +70,11 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganHumanHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagSlime
@@ -85,7 +85,7 @@
   - type: StorageFill
     contents:
     - id: OrganSlimeLungs
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagChitinid
@@ -96,17 +96,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganHumanHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganChitinidLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganChitinidStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagFelinid
@@ -117,17 +117,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganAnimalLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganVulpkaninStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagFeroxi
@@ -138,17 +138,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganAnimalLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganFeroxiStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagMoth
@@ -159,17 +159,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganAnimalLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganMothStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagRodentia
@@ -180,17 +180,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganAnimalLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganAnimalStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagGoblin
@@ -201,17 +201,17 @@
   - type: StorageFill
     contents:
     - id: OrganGoblinEyes
-      amount: 2
+      amount: 1
     - id: OrganGoblinHeart
-      amount: 2
+      amount: 1
     - id: OrganGoblinKidneys
-      amount: 2
+      amount: 1
     - id: OrganGoblinLiver
-      amount: 2
+      amount: 1
     - id: OrganGoblinLungs
-      amount: 2
+      amount: 1
     - id: OrganGoblinStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagDwarf
@@ -222,17 +222,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganDwarfHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganDwarfLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganDwarfStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagHarpy
@@ -243,17 +243,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganAnimalKidneys
-      amount: 2
+      amount: 1
     - id: OrganHumanLiver
-      amount: 2
+      amount: 1
     - id: OrganHarpyLungs
-      amount: 2
+      amount: 1
     - id: OrganAnimalStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagSheleg
@@ -264,17 +264,17 @@
   - type: StorageFill
     contents:
     - id: OrganShelegEyes
-      amount: 2
+      amount: 1
     - id: OrganShelegHeart
-      amount: 2
+      amount: 1
     - id: OrganShelegKidneys
-      amount: 2
+      amount: 1
     - id: OrganShelegLiver
-      amount: 2
+      amount: 1
     - id: OrganShelegLungs
-      amount: 2
+      amount: 1
     - id: OrganShelegStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagReptilian
@@ -285,17 +285,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganAnimalLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganReptilianStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagShadekin
@@ -306,15 +306,15 @@
   - type: StorageFill
     contents:
     - id: OrganShadekinEyes
-      amount: 2
+      amount: 1
     - id: OrganShadekinHeart
-      amount: 2
+      amount: 1
     - id: OrganShadekinKidneys
-      amount: 2
+      amount: 1
     - id: OrganShadekinLiver
-      amount: 2
+      amount: 1
     - id: OrganShadekinStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagOvinia
@@ -325,17 +325,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganAnimalKidneys
-      amount: 2
+      amount: 1
     - id: OrganAnimalLiver
-      amount: 2
+      amount: 1
     - id: OrganAnimalLungs
-      amount: 2
+      amount: 1
     - id: OrganAnimalStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagTajaran
@@ -346,17 +346,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganAnimalLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganVulpkaninStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagVulpkanin
@@ -367,17 +367,17 @@
   - type: StorageFill
     contents:
     - id: OrganHumanEyes
-      amount: 2
+      amount: 1
     - id: OrganAnimalHeart
-      amount: 2
+      amount: 1
     - id: OrganHumanKidneys
-      amount: 2
+      amount: 1
     - id: OrganAnimalLiver
-      amount: 2
+      amount: 1
     - id: OrganHumanLungs
-      amount: 2
+      amount: 1
     - id: OrganVulpkaninStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagArachnid
@@ -388,17 +388,17 @@
   - type: StorageFill
     contents:
     - id: OrganArachnidKidneys
-      amount: 2
+      amount: 1
     - id: OrganArachnidLiver
-      amount: 2
+      amount: 1
     - id: OrganAnimalLungs
-      amount: 2
+      amount: 1
     - id: OrganArachnidStomach
-      amount: 2
+      amount: 1
     - id: OrganArachnidEyes
-      amount: 2
+      amount: 1
     - id: OrganArachnidHeart
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagVox
@@ -409,17 +409,17 @@
   - type: StorageFill
     contents:
     - id: OrganVoxEyes
-      amount: 2
+      amount: 1
     - id: OrganVoxHeart
-      amount: 2
+      amount: 1
     - id: OrganVoxKidneys
-      amount: 2
+      amount: 1
     - id: OrganVoxLiver
-      amount: 2
+      amount: 1
     - id: OrganVoxLungs
-      amount: 2
+      amount: 1
     - id: OrganVoxStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: OrganBagAurelianVox
@@ -430,17 +430,17 @@
   - type: StorageFill
     contents:
     - id: OrganAurelianVoxEyes
-      amount: 2
+      amount: 1
     - id: OrganAurelianVoxHeart
-      amount: 2
+      amount: 1
     - id: OrganAurelianVoxKidneys
-      amount: 2
+      amount:
     - id: OrganAurelianVoxLiver
-      amount: 2
+      amount: 1
     - id: OrganAurelianVoxLungs
-      amount: 2
+      amount: 1
     - id: OrganAurelianVoxStomach
-      amount: 2
+      amount: 1
 
 - type: entity
   id: CrateOrganAvali
@@ -451,9 +451,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatResomi
-      amount: 20
+      amount: 25
     - id: OrganBagAvali
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganHuman
@@ -464,9 +464,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatHuman
-      amount: 20
+      amount: 25
     - id: OrganBagHuman
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganOni
@@ -477,9 +477,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatHuman
-      amount: 20
+      amount: 25
     - id: OrganBagOni
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganDiona
@@ -490,9 +490,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatPlant
-      amount: 20
+      amount: 25
     - id: OrganBagDiona
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganSlime
@@ -503,9 +503,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatSlime
-      amount: 20
+      amount: 25
     - id: OrganBagSlime
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganChitinid
@@ -516,9 +516,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeat
-      amount: 20
+      amount: 25
     - id: OrganBagChitinid
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganFelinid
@@ -529,9 +529,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatHuman
-      amount: 20
+      amount: 25
     - id: OrganBagFelinid
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganFeroxi
@@ -542,9 +542,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeat
-      amount: 20
+      amount: 25
     - id: OrganBagFeroxi
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganMoth
@@ -555,9 +555,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeat
-      amount: 20
+      amount: 25
     - id: OrganBagMoth
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganRodentia
@@ -568,9 +568,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatRat
-      amount: 20
+      amount: 25
     - id: OrganBagRodentia
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganGoblin
@@ -581,9 +581,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatGoblin
-      amount: 12
+      amount: 15
     - id: OrganBagGoblin
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganDwarf
@@ -594,9 +594,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatHuman
-      amount: 20
+      amount: 25
     - id: OrganBagDwarf
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganHarpy
@@ -607,9 +607,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatHuman
-      amount: 20
+      amount: 25
     - id: OrganBagHarpy
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganSheleg
@@ -620,9 +620,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatSheleg
-      amount: 20
+      amount: 25
     - id: OrganBagSheleg
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganReptilian
@@ -633,9 +633,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatLizard
-      amount: 20
+      amount: 25
     - id: OrganBagReptilian
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganShadekin
@@ -646,9 +646,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeat
-      amount: 20
+      amount: 25
     - id: OrganBagShadekin
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganOvinia
@@ -659,9 +659,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeat
-      amount: 20
+      amount: 25
     - id: OrganBagOvinia
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganTajaran
@@ -672,9 +672,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatHuman
-      amount: 20
+      amount: 25
     - id: OrganBagTajaran
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganVulpkanin
@@ -685,9 +685,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeat
-      amount: 20
+      amount: 25
     - id: OrganBagVulpkanin
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganArachnid
@@ -698,9 +698,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatSpider
-      amount: 20
+      amount: 25
     - id: OrganBagArachnid
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganVox
@@ -711,9 +711,9 @@
   - type: StorageFill
     contents:
     - id: FoodMeatChicken
-      amount: 20
+      amount: 25
     - id: OrganBagVox
-      amount: 2
+      amount: 5
 
 - type: entity
   id: CrateOrganAurelianVox
@@ -724,6 +724,6 @@
   - type: StorageFill
     contents:
     - id: FoodMeatChicken
-      amount: 20
+      amount: 25
     - id: OrganBagAurelianVox
-      amount: 2
+      amount: 5
