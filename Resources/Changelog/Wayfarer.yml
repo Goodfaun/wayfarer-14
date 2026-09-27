@@ -6692,3 +6692,122 @@ Entries:
   id: 7260
   time: '2026-09-21T04:38:49.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1588
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: >-
+        drink levels to atomic punch, brain bomb, bubble tea, circus juice,
+        clowns blood, graveyard, orangecreamice, pinkdrink, sapopicante,
+        silverjack
+    - type: Add
+      message: holy water flask metamorphic glass
+  id: 7261
+  time: '2026-09-26T17:14:22.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1612
+- author: Goodfaun
+  changes:
+    - type: Tweak
+      message: >-
+        Standard crates now give 2 merchant tokens. beret, coat, cloak price
+        increase to match crate ratio.
+    - type: Tweak
+      message: Express crate less penalty on failed timer.
+  id: 7262
+  time: '2026-09-27T15:13:51.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1597
+- author: Cat-With-A-Computer
+  changes:
+    - type: Tweak
+      message: LMG-6 and Turbo Laser now have a higher firerate
+    - type: Tweak
+      message: LMG-6 now has slowdown at all times while carried
+    - type: Tweak
+      message: A bunch of laser weapons received damage buffs
+    - type: Tweak
+      message: NGP-40 is now the GP-40, and is able to shoot all types of grenades
+  id: 7263
+  time: '2026-09-27T15:17:56.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1604
+- author: Cat-With-A-Computer
+  changes:
+    - type: Tweak
+      message: Syndicate armor has been renamed to fit theme of Zekke
+    - type: Tweak
+      message: >-
+        Made CGP combat suit faster, and nerfed coldlight environmental suit and
+        combat suit to at least match its speed
+    - type: Tweak
+      message: Brigmedic bags and satchels now have explosive resist
+    - type: Fix
+      message: Commodore headset now has encryption keys again
+  id: 7264
+  time: '2026-09-27T15:39:07.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1605
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: Outlaw Objective System.
+  id: 7265
+  time: '2026-09-27T15:46:42.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1606
+- author: Goodfaun
+  changes:
+    - type: Fix
+      message: Cargo market localization and food market regulations.
+  id: 7266
+  time: '2026-09-27T15:52:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1607
+- author: Cat-With-A-Computer
+  changes:
+    - type: Tweak
+      message: Vulpkanin fox cry and normal cry are now separated
+    - type: Tweak
+      message: Vulpkanin gekker and normal laugh are now separated
+    - type: Tweak
+      message: Rodentia ferret laugh and normal laugh are now separated
+  id: 7267
+  time: '2026-09-27T16:08:30.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1613
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: Crystal and Crystal wall light crafting recipes
+  id: 7268
+  time: '2026-09-27T16:14:18.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1614
+- author: Quill
+  changes:
+    - type: Add
+      message: Added new Tail, Ear and Chest Markings for Shadekins.
+  id: 7269
+  time: '2026-09-27T16:22:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1615
+- author: Cat-With-A-Computer
+  changes:
+    - type: Add
+      message: Commodore and SR now have encryption keys in their loadouts.
+  id: 7270
+  time: '2026-09-27T16:54:47.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1616
+- author: cyanfoot
+  changes:
+    - type: Add
+      message: >-
+        added a Bio-Reactor trait, that lets IPCs eat and drink. Consumed
+        substances have no effect.
+  id: 7271
+  time: '2026-09-27T16:58:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1618
+- author: Cat-With-A-Computer
+  changes:
+    - type: Add
+      message: CGP techfab has had a lot more things added to it
+    - type: Add
+      message: Outlaw techfab has had a lot more things added to it
+    - type: Add
+      message: Outlaw Data Terminal may now print many more types of blueprints
+    - type: Tweak
+      message: Expedition blueprints are no longer contraband
+  id: 7272
+  time: '2026-09-27T17:14:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1619
