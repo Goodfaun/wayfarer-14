@@ -29,8 +29,10 @@
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Avali/organs.rsi
     state: stomach
+# Start Wayfarer
   - type: Metabolizer
     metabolizerTypes: [Avali]
+# End Wayfarer
 
 - type: entity
   id: OrganAvaliHeart
