@@ -37,9 +37,11 @@
         density: 75
         mask:
         - TableMask
-  - type: Construction # Wayfaerer
-    graph: IceBox # Wayfaerer
-    node: icebox # Wayfaerer
+# Start Wayfarer
+  - type: Construction
+    graph: IceBox
+    node: icebox
+# End Wayfarer    
 
 - type: entity
   name: ice box
