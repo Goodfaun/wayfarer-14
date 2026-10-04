@@ -60,3 +60,6 @@
 
 - type: Tag
   id: ZekkeCredit
+
+- type: Tag
+  id: FoldedSign
