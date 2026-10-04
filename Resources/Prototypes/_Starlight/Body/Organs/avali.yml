@@ -29,6 +29,8 @@
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Avali/organs.rsi
     state: stomach
+  - type: Metabolizer
+    metabolizerTypes: [Avali]
 
 - type: entity
   id: OrganAvaliHeart
