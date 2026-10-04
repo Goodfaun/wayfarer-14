@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: SignFolding
   name: folding sign
-  description: A nice little sign to write on. The legs are lodged in place could pry them apart.
+  description: A nice little coffee shop sign to write today's specials or something on. The legs are locked open to stand upright.
   components:
   - type: Transform
     anchored: true
@@ -64,7 +64,7 @@
 - type: entity
   id: SignFolded
   name: folded sign
-  description: Folded up just need to be anchored into place or can be cut back into planks.
+  description: A nice little coffee shop sign to write today's specials or something on. The legs folded up for ease of transport.
   components:
   - type: Item
     size: Huge
