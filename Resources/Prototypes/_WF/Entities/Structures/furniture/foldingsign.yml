@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: SignFolding
   name: folding sign
-  description: a nice little sign to write on. though could Pry
+  description: A nice little sign to write on. The legs are lodged in place could pry them apart.
   components:
   - type: Transform
     anchored: true
@@ -30,7 +30,7 @@
     node: SignFolding
   - type: DamageExaminable
   - type: Physics
-    bodyType: Dynamic
+    bodyType: Static
     fixedRotation: true
   - type: Anchorable
   - type: Pullable
@@ -64,7 +64,7 @@
 - type: entity
   id: SignFolded
   name: folded sign
-  description: Folded up just need to be screwed into place. or cut back into planks
+  description: Folded up just need to be anchored into place or can be cut back into planks.
   components:
   - type: Item
     size: Huge
