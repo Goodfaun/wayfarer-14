@@ -1,0 +1,13 @@
+﻿- type: constructionGraph
+  id: Lowfogdeconstruction
+  start: start
+  graph:
+  - node: start
+    entity: FloorFogEntity
+    edges:
+    - to: start
+      steps:
+      - tool: Pulsing
+        doAfter: 0.6
+      completed:
+      - !type:DeleteEntity

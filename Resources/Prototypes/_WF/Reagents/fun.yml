@@ -1,0 +1,28 @@
+﻿- type: reagent
+  id: LiquidFog
+  name: reagent-name-liquidfog
+  group: Special
+  desc: reagent-desc-liquidfog
+  evaporationSpeed: 1
+  physicalDesc: reagent-physical-desc-liquidfog
+  flavor: liquidfog
+  color: "#bababa"
+  tileReactions:
+  - !type:CreateEntityTileReaction
+    entity: FloorLowFogEntity
+    maxOnTile: 1
+    maxOnTileWhitelist:
+      tags: [ Carpet ]
+
+- type: entity
+  parent: VialBluespace
+  suffix: Liquid fog 300u
+  id: FogMedicalVialBluespace
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      beaker:
+        maxVol: 300
+        reagents:
+        - ReagentId: LiquidFog
+          Quantity: 300

@@ -2,3 +2,8 @@
   id: optimizedalcohol
   flavorType: Base
   description: flavor-base-optimal
+
+- type: flavor
+  id: liquidfog
+  flavorType: base
+  description: flavor-base-liquidfog

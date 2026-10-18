@@ -1,0 +1,175 @@
+﻿- type: entity
+  id: FloorLowFogEntity
+  name: low fog
+  description: low hanging fog, that can dissapated with a multitool pulse.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: FloorOccluder
+  - type: Transform
+    anchored: true
+  - type: SyncSprite
+  - type: Clickable
+  - type: Sprite
+    sprite: _WF/Tiles/lowfog.rsi
+    drawdepth: BelowFloor
+    layers:
+      - state: lowfog
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        layer:
+          - SlipLayer
+        mask:
+          - ItemMask
+        density: 1000
+        hard: false
+  - type: StepTrigger
+    requiredTriggeredSpeed: 0
+    intersectRatio: 0.1
+    blacklist:
+      tags:
+        - Catwalk
+  - type: TileEntityEffect
+    effects:
+    - !type:ExtinguishReaction
+  - type: Tag
+    tags:
+    - Carpet
+  - type: Construction
+    graph: Lowfogdeconstruction
+    node: start
+
+- type: entity
+  id: FogSprayer
+  name: fog sprayer
+  description: maker of fog
+  parent: MegaSprayBottle
+  suffix: ""
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      spray:
+        reagents:
+        - ReagentId: LiquidFog
+          Quantity: 60
+        maxVol: 60
+  - type: SolutionTransfer
+    transferAmount: 5
+    canChangeTransferAmount: false
+  - type: RefillableSolution
+    solution: spray
+  - type: DrainableSolution
+    solution: spray
+  - type: SolutionItemStatus
+    solution: spray
+  - type: UseDelay
+  - type: Spray
+    transferAmount: 20
+    sprayedPrototype: BigVapor
+    sprayVelocity: 3
+    sprayDistance: 6
+    spraySound:
+      path: /Audio/Effects/spray2.ogg
+  - type: TrashOnSolutionEmpty
+    solution: spray
+  - type: ExaminableSolution
+    solution: spray
+    exactVolume: true
+  - type: SolutionRegeneration
+    solution: spray
+    generated:
+      reagents:
+      - ReagentId: LiquidFog
+        Quantity: 10
+    duration: 1
+  - type: Tag
+    tags:
+    - Spray
+  - type: Sprite
+    sprite: Objects/Specific/Research/rped.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Specific/Research/rped.rsi
+
+- type: entity
+  parent: CleanerGrenade
+  id: FogGrenade
+  name: fognade
+  description: Special grenade for fog foam.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/janitor.rsi
+    color: "#655967"
+  - type: SmokeOnTrigger
+    keysIn:
+    - timer
+    duration: 10
+    spreadAmount: 50
+    smokePrototype: Foam
+    solution:
+      reagents:
+      - ReagentId: LiquidFog
+        Quantity: 30
+  - type: NFCleanade # Frontier
+
+- type: entity
+  name: stationary fog machine
+  parent: [BaseMachine] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable # Wayfarer: Removed contraband
+  id: StationaryFogMachine
+  description: fog
+  components:
+  - type: SmokeOnTrigger
+    duration: 10
+    spreadAmount: 50
+    smokePrototype: Foam
+    solution:
+      reagents:
+      - ReagentId: LiquidFog
+        Quantity: 30
+  - type: TriggerOnSignal
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: DeviceLinkSink
+    ports:
+    - Trigger
+  - type: Sprite
+    sprite: Objects/Weapons/pflash.rsi
+    layers:
+    - state: "off"
+      map: ["enum.ProximityTriggerVisualLayers.Base"]
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.3,0.15,0.3"
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+        density: 380
+  - type: Appearance
+  - type: TriggerOnUse
+
+- type: reaction
+  id: LiquidFog
+  reactants:
+    Ice:
+      amount: 10
+    Ethanol:
+      amount: 3
+    Sugar:
+      amount: 2
+  products:
+    LiquidFog: 15
