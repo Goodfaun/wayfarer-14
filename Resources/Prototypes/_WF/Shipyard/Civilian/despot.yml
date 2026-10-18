@@ -1,0 +1,32 @@
+﻿- type: vessel
+  id: Despot
+  parent: BaseVessel
+  name: BAM Despot
+  description: A basic ship for boarding
+  price: 40500 #209*50 appraise 29932=30,000
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_WF/Shuttles/Civilian/despot.yml
+  guidebookPage: Null #ShipyardDespot
+  class:
+  - Civilian
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Despot
+  mapName: 'Despot'
+  mapPath: /Maps/_WF/Shuttles/Civilian/despot.yml
+  minPlayers: 0
+  stations:
+    Despot:
+      stationProto: StandardFrontierVessel
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: 'Despot {1}'
+        nameGenerator:
+          !type:NanotrasenNameGenerator
+          prefixCreator: '14'
+      - type: StationJobs
+        availableJobs:
+          WayfarerInterview: [ 0, 0 ]
